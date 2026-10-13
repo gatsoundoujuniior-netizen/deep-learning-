@@ -23,6 +23,14 @@ cd reseaux_de_neuronnes
 uv sync
 ```
 
+Installe ensuite les bibliothèques nécessaires :
+
+```bash
+uv add torch numpy matplotlib
+```
+
+> Pour utiliser le GPU (NVIDIA), installe la version CUDA de PyTorch en suivant les instructions sur [pytorch.org](https://pytorch.org/get-started/locally/).
+
 Ouvre ensuite un notebook dans VS Code ou Jupyter et sélectionne le kernel `.venv`.
 
 ## Technologies
